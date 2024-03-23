@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.png">
+    <title>Registeration Form</title>
+    <link rel="stylesheet" href="registeration.css">
+    <script defer src="registration.js"></script>
+</head>
+<body required="registration.php" >
+    <div class="header">
+        <div class="form" >Registration Form</div>
+            <form action="registration.php" id="form" method="post">
+               <div class="card-details">
+                <div class="card-box">
+                    <span class="datas">Full Name</span>
+                    <input type="text" placeholder="enter your name" id="name" name="Name" >
+                    <div class="error"></div>
+                </div>
+                <div class="card-box">
+                    <span class="datas">Degree</span>
+                    <input type="text" placeholder="enter your degree" id="degree" name="Degree">
+                    <div class="error"></div>
+                </div>
+                <div class="card-box">
+                    <span class="datas">Department</span>
+                    <input type="text" placeholder="enter your department" id="depart" name="Department">
+                    <div class="error"></div>
+                </div>
+                <div class="card-box">
+                    <span class="datas">Shift</span>
+                    <select id="shift" name="Shift">
+                        <option value="" >-select-</option>
+                        <option value="1" >1</option>
+                        <option value="2" >2</option>
+                    </select>
+                    <div class="error"></div>
+                </div>
+                <div class="card-box">
+                    <span class="datas">Aadhaar</span>
+                    <input type="text" placeholder="enter your aadhaar number" id="aadhaar" name="Aadhaar">
+                    <div class="error"></div>
+                </div>
+                <div class="card-box">
+                    <span class="datas">Account No</span>
+                    <input type="text" placeholder="enter your account no" id="acno" name="StdAcno">
+                    <div class="error"></div>
+                </div>
+                <div class="card-box">
+                    <span class="datas">IFSC Code</span>
+                    <input type="text" placeholder="enter your IFSC code" id="ifsc" name="StdIfsc">
+                    <div class="error"></div>
+                </div>
+                <div class="card-box">
+                    <span class="datas">Parent Account No</span>
+                    <input type="text" placeholder="enter  account no" id="acno1" name="ParentAcno">
+                    <div class="error"></div>
+                </div>
+                <div class="card-box">
+                    <span class="datas">Parent IFSC Code</span>
+                    <input type="text" placeholder="enter  IFSC code" id="ifsc1" name="ParentIfsc">
+                    <div class="error"></div>
+                </div>
+                <div class="card-box">
+                    <span class="datas">WhatsApp No</span>
+                    <input type="phone" placeholder="enter your whatsapp number" id="whtno" name="WhatsappNo">
+                    <div class="error"></div>
+                </div>
+                <div class="card-box">
+                    <span class="datas">Distance from hometown (km)</span>-
+                    <input type="phone" placeholder="Enter your distance(km)" id="dis" name="Distance">
+                    <div class="error"></div>
+                </div>
+                <div class="card-box">
+                    <span class="datas">Signature</span>
+                    <input type="file" id="sig" name="Signature">
+                    <div class="error"></div>
+                </div>
+               </div>
+               <div class="button">
+               <button type="submit" id="submit" name="submit">Register</button>
+            </div>
+            
+            </form>
+    </div>
+</body>
+</html>

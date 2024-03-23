@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    color: #ffff;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(155deg,#33defc,rgb(250, 47, 47));
+    padding: 10px;
+}
+.header{
+    max-width: 650px;
+    width: 100%;
+    padding: 28px 35px;
+    border-radius: 20px;
+    background:linear-gradient(155deg,#df7878,#36daf7);
+    margin:auto;
+}
+.header .form{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    padding: 0 0 25px 0;
+    margin:auto;
+}
+.header .form::before{
+    content: '';
+    position: absolute;
+    height: 4px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background:linear-gradient(155deg,#31daf8,rgb(241, 44, 44));
+}
+.header form .card-details{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .card-details .card-box{
+    width:calc(100% / 2 - 30px);
+    margin-bottom: 15px;
+}
+.card-details .card-box .datas{
+ display: block;
+ font-weight: 500;
+ margin-bottom: 8px;  
+ font-size: 20px; 
+}
+
+.card-details .card-box input{
+    height: 35px;
+    width: 100%;
+    outline: none;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    padding-left: 15px;
+    font-size: 15px;
+    border-bottom-width:2px ;
+    transition: all 0.3s ease;
+
+}
+.card-details .card-box input:focus,
+.card-details .card-box input:valid{
+border-color: rgb(28, 233, 240);
+}
+form .button{
+text-align: center;
+
+}
+form .button button{
+    padding: 10px 0;
+    margin-top: 10px;
+    height: 100%;
+    width: 50%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    background: linear-gradient(145deg,#31daf8,rgb(241, 44, 44));
+     cursor: pointer; 
+
+}
+.card-box .error {
+    color:#ff0e0e;
+    font-size:16px;
+}
+@media (max-width:584px){
+    .header{
+        max-width: 100%;
+    }
+    form .card-details .card-box{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .header form .card-details{
+        max-height: 320px;
+        overflow: scroll;
+    }
+    .card-details::-webkit-scrollbar{
+        width: 0;
+    }
+}

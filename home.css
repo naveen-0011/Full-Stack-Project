@@ -1,0 +1,248 @@
+body{
+  background-color: #f7f6f6;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+*{
+    font-family:"open sans",sans-serif;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+.container
+{
+  width:100%;
+  border-radius: 8px;
+  
+}
+.cont{
+    border-radius: 8px;
+    box-shadow: 0px 10px 10px 2px black ;
+}
+.header{
+    position: -webkit-sticky;
+    position:sticky;
+    top: 0;
+    height:90px;
+    width: 100%;
+    background-color: beige;
+    box-shadow:  0px 8px 18px 0px  rgb(22, 22, 20);
+    
+}
+.header img{
+position: absolute;
+top:1px;
+left: 0px;
+float: left;
+height:90px;
+width: 100px;
+text-align: center;
+}
+.header h1,h3{
+    text-decoration:none;
+    text-align: center;
+    margin: 10px;
+} 
+.header i{
+    color: black;
+    font-size: 350px;
+    margin-top: auto;
+}
+.sec
+{
+    background-color: white;
+    margin: 8% 30px 0px 10px;
+    height: 700px;
+    width: 300px;
+    float: left;
+    text-align: center;
+
+}
+.sec-list{
+    
+    list-style: none;
+    text-align: justify;
+    
+}
+.sec li{
+    margin-left:15px;
+    font-size: 20px;
+    padding: 40px 0px 0px 20px;  
+}
+.sec-list li a{
+    text-decoration: none;
+    color: rgb(109, 109, 31);
+}
+.hostel-details{
+    height:auto;
+    width:auto;
+    float: left;
+    margin-top: 10%;
+    
+}
+.heading1{
+   
+    padding: auto;
+}
+.heading1-h1{
+    width: 200px;
+    height: 50px;
+    margin-top: -5px;
+    float: left;
+    text-decoration: underline rgb(167, 161, 161);
+    color: rgb(87, 87, 218);
+}
+.heading1-para1{
+    width: 600px;
+    float: left;
+    margin-left:35px ;
+    border-left: thick solid #d0e941;
+}
+.heading1-para1 h5{
+    margin-left: 10px;
+    color:rgb(165, 120, 69);
+    padding: 5px;
+}
+.heading1-content2{
+width: 1000px;
+margin-left:20px;
+}
+.intro-para2{
+    float: left;
+    width: 600px;
+    margin-top: 6%;
+   
+}
+.heading1-content2 img{
+height: 200px;
+width: 320px;
+margin:10%  30px;
+border-radius:8px;
+box-shadow:  0px 8px 8px 0px  rgb(22, 22, 20);
+}
+.administration{
+    height:fit-content;
+    width:fit-content;
+  background-color:#ffffff;
+border-radius: 3px;
+padding-right: 30px;
+}
+.administration h1{
+     border-left: thick solid #f0ed58;
+     color: rgb(87, 87, 218);
+}
+.administration img{
+   height: 200px;
+    width: 320px;
+    border-radius:8px;
+     box-shadow:  0px 8px 8px 0px  rgb(22, 22, 20); 
+     margin: 25px 60px;
+     float: left;
+    }
+.administration-para1{
+    width: 1000px;
+    margin-top: 8%;
+}
+.hostelmess{
+    height: auto;
+    width: auto;
+    padding: 30px;
+}
+.hostelmess h1{
+    text-decoration: underline rgb(170, 170, 170);
+    color: rgb(87, 87, 218);
+}
+.hostelmess p{
+margin: 30px 30px;
+width: 600px;
+}
+.hostelmess img{
+    column-count: 3;
+   height: 200px;
+    width: 320px;
+    border-radius:8px;
+     box-shadow:  0px 8px 8px 0px  rgb(22, 22, 20); 
+}
+.c-a{
+    height: auto;
+    width: auto;
+    background-color: #ffffff;
+}
+.c-a1{
+    margin-left: 20px;
+}
+.c-a1 h3{
+    text-align: start;
+}
+.c-a h1{
+    border-left: thick solid #f0ed58;
+    color: rgb(87, 87, 218);
+}
+.c-a p{
+    width: 800px;
+    text-indent: 50px;
+}
+.rules-regulation{
+    height: auto;
+    width: auto;
+}
+.rules-regulation h1{
+    text-decoration: underline rgb(170, 170, 170);
+    color: rgb(87, 87, 218);}
+.rules-regulation ol li{
+width: 800px;
+}
+.rules-regulation a{
+    height: 20px;
+    width: 100px;
+    color: #f7f6f6;
+    background-color:rgb(100, 114, 243);
+    border-radius: 10%;
+    text-decoration: none;
+    float: right;
+    padding: 15px;
+
+}
+
+.rules-regulation h4{
+    float:right;
+}
+/*
+@media screen and (min-width:481px) {
+    .container{
+ position:absolute;
+  top: 0px;
+  left:0px;
+  height: fit-content;
+  width:100vw;
+  border-radius: 5px;
+    }
+    .cont{
+    border-radius: 8px;
+    box-shadow: 0px 10px 10px 2px black ;
+}
+.header{
+    position: -webkit-sticky;
+    position:sticky;
+    top: 0;
+    height:40px;
+    width: 480px;
+    background-color: beige;
+    box-shadow:  0px 8px 18px 0px  rgb(22, 22, 20);
+    
+}
+.header img{
+ position: absolute;
+top:4px;
+left: 0px;
+float: left;
+height:30px;
+width: 50px;
+}
+.header h1{
+    text-decoration:none;
+    text-align: center;
+    margin-left: 40px;
+} 
+}*/
